@@ -10,7 +10,9 @@
 - `apt install php`
 - `apt install libapache2-mod-php`
 - `apt install php-imagick`
+- `apt install php-zip`
 - `apt install ffmpeg`
+- `apachectl restart`
 
 ## Для тех, кто не разбирается в тех. части
 
@@ -24,4 +26,5 @@ Anyway. Если вы хотите закинуть данный скрипт н
 
 - PHP, интегрированный с веб-сервером
 - Расширение PHP [ImageMagick](https://www.php.net/manual/ru/book.imagick.php). В debian-based ОС устанавливается командой `apt install php-imagick`
+- Расширение [PHP Zip](https://www.php.net/manual/ru/book.zip.php)
 - [FFmpeg](https://www.ffmpeg.org/). В debian-based ОС устанавливается командой `apt install ffmpeg`
