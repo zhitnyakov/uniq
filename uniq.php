@@ -57,8 +57,6 @@ class Uniq
 }
 
 if ($_FILES) {
-//    ob_end_clean();
-//    ob_start();
     $uniq_files = [];
     $file       = [
         'name'     => $_FILES['file']['name'],
@@ -124,7 +122,6 @@ if ($_FILES) {
             ob_end_clean();
         }
         readfile($zip_filename);
-        header("Location: /uniq.php");
     }
 }
 ?>
