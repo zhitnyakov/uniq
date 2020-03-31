@@ -26,5 +26,6 @@ Anyway. Если вы хотите закинуть данный скрипт н
 
 - PHP, интегрированный с веб-сервером
 - Расширение PHP [ImageMagick](https://www.php.net/manual/ru/book.imagick.php). В debian-based ОС устанавливается командой `apt install php-imagick`
-- Расширение [PHP Zip](https://www.php.net/manual/ru/book.zip.php)
+- Расширение [PHP Zip](https://www.php.net/manual/ru/book.zip.php). В debian-based ОС устанавливается командой `apt install php-zip`
+- Не забывайте после установки расширений перезапускать веб-сервер!
 - [FFmpeg](https://www.ffmpeg.org/). В debian-based ОС устанавливается командой `apt install ffmpeg`
